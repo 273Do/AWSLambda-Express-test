@@ -1,0 +1,17 @@
+{
+  "name": "express-with-aws-lambda",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "deploy": "serverless deploy",
+    "dev": "serverless offline"
+  },
+  "dependencies": {
+    "@codegenie/serverless-express": "^4.15.0",
+    "express": "^4.19.2",
+    "serverless-http": "^3.2.0"
+  },
+  "devDependencies": {
+    "serverless-offline": "^14.3.2"
+  }
+}
